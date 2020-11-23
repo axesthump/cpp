@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/casubmar/CLionProjects/cpp01/ex07/Replace.hpp
+iostream
+-
+fstream
+-
+
+/home/casubmar/CLionProjects/cpp01/ex07/main.cpp
+iostream
+-
+fstream
+-
+Replace.hpp
+/home/casubmar/CLionProjects/cpp01/ex07/Replace.hpp
+

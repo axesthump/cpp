@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/casubmar/CLionProjects/cpp01/ex05/Brain.hpp
+iostream
+-
+sstream
+-
+
+/home/casubmar/CLionProjects/cpp01/ex05/Human.cpp
+Human.hpp
+/home/casubmar/CLionProjects/cpp01/ex05/Human.hpp
+
+/home/casubmar/CLionProjects/cpp01/ex05/Human.hpp
+Brain.hpp
+/home/casubmar/CLionProjects/cpp01/ex05/Brain.hpp
+
+/home/casubmar/CLionProjects/cpp01/ex05/main.cpp
+Human.hpp
+/home/casubmar/CLionProjects/cpp01/ex05/Human.hpp
+

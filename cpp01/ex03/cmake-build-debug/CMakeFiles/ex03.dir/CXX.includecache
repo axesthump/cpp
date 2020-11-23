@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/casubmar/CLionProjects/cpp01/ex03/Zombie.hpp
+string
+-
+iostream
+-
+
+/home/casubmar/CLionProjects/cpp01/ex03/ZombieHorde.cpp
+ZombieHorde.hpp
+/home/casubmar/CLionProjects/cpp01/ex03/ZombieHorde.hpp
+
+/home/casubmar/CLionProjects/cpp01/ex03/ZombieHorde.hpp
+Zombie.hpp
+/home/casubmar/CLionProjects/cpp01/ex03/Zombie.hpp
+ctime
+-
+cstdlib
+-
+

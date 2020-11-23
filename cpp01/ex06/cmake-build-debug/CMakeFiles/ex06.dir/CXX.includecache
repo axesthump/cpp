@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/casubmar/CLionProjects/cpp01/ex06/HumanA.cpp
+HumanA.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/HumanA.hpp
+iostream
+-
+
+/home/casubmar/CLionProjects/cpp01/ex06/HumanA.hpp
+Weapon.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.hpp
+
+/home/casubmar/CLionProjects/cpp01/ex06/HumanB.cpp
+HumanB.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/HumanB.hpp
+iostream
+-
+
+/home/casubmar/CLionProjects/cpp01/ex06/HumanB.hpp
+Weapon.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.hpp
+string
+-
+
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.cpp
+Weapon.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.hpp
+
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.hpp
+string
+-
+
+/home/casubmar/CLionProjects/cpp01/ex06/main.cpp
+Weapon.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/Weapon.hpp
+HumanA.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/HumanA.hpp
+HumanB.hpp
+/home/casubmar/CLionProjects/cpp01/ex06/HumanB.hpp
+
